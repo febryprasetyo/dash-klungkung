@@ -8,10 +8,10 @@ import {
 import { FaCheck } from 'react-icons/fa';
 import { HiOutlineSignalSlash } from 'react-icons/hi2';
 
-function Parameter(props) {
+function Date(props) {
   return (
     <>
-      <Card className='w-72 pb-0 bg-blue-gray-900'>
+      <Card className=' pb-0 bg-blue-gray-900'>
         <CardBody className='text-center -my-3'>
           <Typography variant='h4' color='white'>
             {props.name}
@@ -50,4 +50,4 @@ function Parameter(props) {
   );
 }
 
-export default Parameter;
+export default Date;

@@ -4,9 +4,9 @@ import TopBar from './components/Topbar';
 
 const App = () => {
   return (
-    <div className=' bg-blue-gray-400'>
+    <div className=' bg-blue-gray-400 min-h-screen pb-4'>
       <TopBar />
-      <Monitoring />
+      <Monitoring className='items-center' />
     </div>
   );
 };
